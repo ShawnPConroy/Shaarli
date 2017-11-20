@@ -1405,7 +1405,7 @@ function renderPage($conf, $pluginManager, $LINKSDB, $history, $sessionManager)
         exit;
     }
 
-    // -------- User want to post a new link: Display link edit form.
+    // -------- User wants to post a new link: Display link edit form.
     if (isset($_GET['post'])) {
         $url = cleanup_url($_GET['post']);
 
